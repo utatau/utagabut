@@ -24,7 +24,7 @@ class spam:
 			return f'\x1b[91mSpamm kitabisa {self.nomer} \x1b[91mFail!'
 			
 	def tokped(self):
-		rands=random.choice(open('ua.txt').readlines()).split('\n')[0]
+		rands=random.choice(open('utacuy.txt').readlines()).split('\n')[0]
 		kirim = {
 			'User-Agent' : rands,
 			'Accept-Encoding' : 'gzip, deflate',
@@ -114,8 +114,8 @@ def logo():
 	auth=m+'  Author : '+k+'./Mahardika'
 	return '''
 %s SPAM WHATSAPP KECIL 
-%s PUTRA MAHARDIKA%s'''
-(k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h)
+%s PUTRA MAHARDIKA
+%s''' % (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
 # -----------------------------------------------------------
 def termux():
 	os.system('termux-contact-list > .contact')
@@ -152,7 +152,7 @@ def main():
 def jnspam():
 	global jns
 	print(logo())
-	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Exit\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'All\n'+b+'║'+m+'『'+h+'2'+m+'』 '+bm+'PHD\n'+b+'║'+m+'『'+h+'3'+m+'』 '+bm+'KitaBisa\n'+b+'║'+m+'『'+h+'4'+m+'』 '+bm+'Tokopedia\n'+b+'║'+m+'『'+h+'5'+m+'』 '+bm+'TokoTalk (Unlimited)\n'+b+'║'+m+'『'+h+'6'+m+'』 '+bm+'Balaji (Without +62 or 0)\n'+b+'╠══════════════════════════════')
+	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Exit\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'Tokopedia\n'+b+'║'+m+'『'+h+'2'+m+'╠══════════════════════════════')
 	while True:
 		oy=str(input(b+'╚══'+m+'〙'+u+'Spam'+m+' ▶ '+h))
 		if( oy == '1' or oy == '01' ):
