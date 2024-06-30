@@ -113,9 +113,8 @@ def logo():
 	os.system('clear')
 	auth=m+'  Author : '+k+'./Mahardika'
 	return '''
-%s SPAM WHATSAPP KECIL 
-%s PUTRA MAHARDIKA
-%s''' % (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
+%s PUTRA MAHARDIKA%s'''
+(k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h)
 # -----------------------------------------------------------
 def termux():
 	os.system('termux-contact-list > .contact')
@@ -133,7 +132,7 @@ def termux():
 	apakah()
 def main():
 	print(logo())
-	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'MODE '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Back\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'1 Nomor\n'+b+'║'+m+'『'+h+'2'+m+'』 '+bm+'Lebih dari 1 nomor\n'+b+'║'+m+'『'+h+'3'+m+'』 '+bm+'ambil dari file\n'+b+'║'+m+'『'+h+'4'+m+'』 '+bm+'pilih dari kontak\n'+b+'╠══════════════════════════════')
+	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'MODE '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' kembali\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'1 Nomor\n'+b+'║'+m+'『'+h+'2'+m+'』 '+bm+'Lebih dari 1 nomor\n'+b+'║'+m+'『'+h+'3'+m+'』 '+bm+'ambil dari file\n'+b+'║'+m+'『'+h+'4'+m+'』 '+bm+'pilih dari kontak\n'+b+'╠══════════════════════════════')
 	pil=str(input(b+'╚══'+m+'〙'+u+'Mode'+m+' ▶ '+h))
 	if( pil == '1' or pil == '01'):
 		single()
@@ -152,7 +151,7 @@ def main():
 def jnspam():
 	global jns
 	print(logo())
-	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Exit\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'Tokopedia\n'+b+'╠══════════════════════════════')
+	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' keluar\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'Tokopedia\n'+b+'╠══════════════════════════════')
 	while True:
 		oy=str(input(b+'╚══'+m+'〙'+u+'Spam'+m+' ▶ '+h))
 		if( oy == '1' or oy == '01' ):
