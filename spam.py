@@ -114,8 +114,8 @@ def logo():
 	auth=m+'  Author : '+k+'./Mahardika'
 	return '''
 %s SPAM WHATSAPP KECIL 
-%s PUTRA MAHARDIKA
-%s''' % (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
+%s PUTRA MAHARDIKA%s'''
+(k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h)
 # -----------------------------------------------------------
 def termux():
 	os.system('termux-contact-list > .contact')
